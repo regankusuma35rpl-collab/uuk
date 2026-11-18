@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Teknologi Saya</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog Teknologi Saya</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Judul Artikel Teknologi</h2>
+            <img src="artikel.jpg" alt="Gambar Artikel" class="articel-image">
+            <p>Ini adalah paragraf pertama yang menjelaskan mengenai perkembangan teknologi modern saat ini, mencakup
+                transformasi digital di berbagai sektor industri global.</p>
+            <p>Paragraf kedua membahas pentingnya memahami dasar-dasar pemrograman, kecerdasan buatan, serta keamanan
+                data bagi generasi pengembang masa depan.</p>
+        </article>
+
+        <aside>
+            <img src="fotoku.jpg" alt="Foto Profil Penulis" class="foto-profil">
+            <h3>Tentang Penulis</h3>
+            <p>Halo! Saya adalah seorang penggiat teknologi dan pengembang web yang antusias membagikan tips coding
+                serta ulasan seputar dunia IT.</p>
+        </aside>
+    </main>
+
+    <section class="form-container">
+        <form id="formKontak" action="#" method="get">
+            <h2>FORM KONTAK</h2>
+
+            <div>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required minlength="3" maxlength="50">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+            </div>
+
+            <div>
+                <label for="topik">Topik:</label>
+                <select id="topik" name="topik" required>
+                    <option value="">--PILIH TOPIK--</option>
+                    <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak (RPL)</option>
+                    <option value="Telekomunikasi dan Jaringan">Telekomunikasi dan Jaringan (TKJ)</option>
+                    <option value="Pengembangan Game">Pengembangan Game (PG)</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" required minlength="10" maxlength="200"></textarea>
+            </div>
+
+            <div class="checkbox-group">
+                <label for="langganan">Langganan:</label>
+                <input type="checkbox" id="langganan" name="langganan">
+                Langganan Artikel Baru
+                </input>
+            </div>
+
+            <div><button type="submit">Kirim</button></div>
+
+        </form>
+
+        <footer>
+            <p>&copy; 2026 Blog Teknologi Saya. Hak Cipta Dilindungi.</p>
+        </footer>
+    </section>
+</body>
+
+</html>
